@@ -18,6 +18,8 @@ public class CustomEnumDeserializer extends JsonDeserializer<Enum> implements Co
     private Class<Enum> enumCls;
 
     private String prop;
+    
+    //start from here 
 
     /**
      * @param prop 属性名
